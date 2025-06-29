@@ -5,10 +5,12 @@ const NavBar = () => {
         <nav>
             {
                 [
-                    { link: '/link1', text: 'Link 1' },
-                    { link: '/link2', text: 'Link 2' },
-                    { link: '/link3', text: 'Link 3' },
-                    { link: '/link4', text: 'Link 4' }
+                    { link: '/home', text: 'Home' },
+                    { link: '/about', text: 'About' },
+                    { link: '/menu', text: 'Menu' },
+                    { link: '/reservation', text: 'Reservation' },
+                    { link: '/order-online', text: 'Order Online' },
+                    { link: '/login', text: 'Login' }
                 ].map(
                     (e) => (<a href={e.link}>{e.text}</a>)
                 )
