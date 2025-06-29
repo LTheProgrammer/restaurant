@@ -46,7 +46,7 @@ const specialsData = [
     }
 ];
 
-const Main = () => {
+const MainPage = () => {
     return (
         <main style={{ width: '80%' }}>
             <section className='hero'>
@@ -138,4 +138,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainPage;
