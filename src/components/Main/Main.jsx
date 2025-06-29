@@ -59,7 +59,13 @@ const Main = () => {
                             découvertes lors de ses voyages en Italie et en Grèce, et par l'expertise culinaire
                             qu'Adrian avait développée dans les cuisines de restaurants étoilés, ils ont uni leurs
                             forces pour créer Little Lemon...</p>
-                        <button style={{ marginTop: '1rem' }} className="reserve-btn">Reserve a table</button>
+                        <button
+                            style={{ marginTop: '1rem' }}
+                            className="reserve-btn"
+                            onClick={() => window.location.href = '/reservation'}
+                        >
+                            Reserve a table
+                        </button>
                     </div>
                     <div>
                         <img alt="bruchetta" src="assets/bruchetta.svg" style={{ maxWidth: '30vw' }} />

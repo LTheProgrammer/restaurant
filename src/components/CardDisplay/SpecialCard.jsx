@@ -2,7 +2,7 @@ import './SpecialCard.css';
 
 const SpecialCard = (props) => {
     return (
-        <div className='special-card'>
+        <div className='special-card' onClick={() => window.location.href = `/order-online?item=${props.name}`}>
             <img alt={props.name} src={props.src} />
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <b style={{ margin: '1rem' }}>{props.name}</b>
