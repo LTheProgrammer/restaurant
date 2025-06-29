@@ -15,7 +15,7 @@ const Footer = () => {
                         { link: '/order-online', text: 'Order Online' },
                         { link: '/login', text: 'Login' }
                     ].map(
-                        (e) => (<a href={e.link}>{e.text}</a>)
+                        (e, i) => (<a key={e.text + i} href={e.link}>{e.text}</a>)
                     )
                 }
             </section>
@@ -33,7 +33,7 @@ const Footer = () => {
                         { link: '/instagram', text: 'Instagram' },
                         { link: '/x', text: 'X' },
                     ].map(
-                        (e) => (<a href={e.link}>{e.text}</a>)
+                        (e, i) => (<a key={e.text + i} href={e.link}>{e.text}</a>)
                     )
                 }
             </section>

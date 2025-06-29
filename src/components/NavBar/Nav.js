@@ -12,7 +12,7 @@ const NavBar = () => {
                     { link: '/order-online', text: 'Order Online' },
                     { link: '/login', text: 'Login' }
                 ].map(
-                    (e) => (<a href={e.link}>{e.text}</a>)
+                    (e, i) => (<a key={i} href={e.link}>{e.text}</a>)
                 )
             }
         </nav>

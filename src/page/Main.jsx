@@ -1,6 +1,7 @@
-import CardDisplay from '../CardDisplay/CardDisplay';
-import ReviewCard from '../CardDisplay/ReviewCard';
-import SpecialCard from '../CardDisplay/SpecialCard';
+
+import CardDisplay from '../components/CardDisplay/CardDisplay';
+import ReviewCard from '../components/CardDisplay/ReviewCard';
+import SpecialCard from '../components/CardDisplay/SpecialCard';
 import './Main.css';
 
 const reviewsData = [
@@ -81,7 +82,7 @@ const Main = () => {
                 </div>
                 <CardDisplay>
                     {
-                        specialsData.map((e, i) => <SpecialCard index={e.name + i} {...e} />)
+                        specialsData.map((e, i) => <SpecialCard key={e.name + i} {...e} />)
                     }
                 </CardDisplay>
             </section>
@@ -89,7 +90,7 @@ const Main = () => {
                 <h1 style={{ fontSize: '2rem', textAlign: 'center' }}>Testimonials</h1>
                 <CardDisplay>
                     {
-                        reviewsData.map((e, i) => <ReviewCard index={e.name + i} {...e} />)
+                        reviewsData.map((e, i) => <ReviewCard key={e.name + i} {...e} />)
                     }
                 </CardDisplay>
             </section>

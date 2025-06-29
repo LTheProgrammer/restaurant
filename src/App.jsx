@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import Main from './page/Main';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
