@@ -39,6 +39,12 @@ button {
     color: white;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
 .hero {
     width: 100vw;
     background: linear-gradient(90deg, #495E57 90%, transparent 90%);

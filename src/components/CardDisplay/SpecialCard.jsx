@@ -4,7 +4,7 @@ const SpecialCard = (props) => {
     return (
         <div className='special-card'>
             <img alt={props.name} src={props.src} />
-            <div style={{}}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <b style={{ margin: '1rem' }}>{props.name}</b>
                 <b style={{ margin: '1rem' }}>{props.price}</b>
             </div>
