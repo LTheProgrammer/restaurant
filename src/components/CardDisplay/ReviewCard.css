@@ -1,0 +1,23 @@
+.review-card {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.review-card img {
+    min-width: 5vw;
+    max-width: 10vw;
+}
+
+.review-card i {
+    display: inline-flex;
+    align-items: center;
+    height: 4rem;
+    border: 1rem;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
