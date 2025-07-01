@@ -62,7 +62,6 @@ const MainPage = () => {
                             forces pour créer Little Lemon...</p>
                         <button
                             style={{ marginTop: '1rem' }}
-                            className="reserve-btn"
                             onClick={() => window.location.href = '/reservation'}
                         >
                             Reserve a table
@@ -77,7 +76,7 @@ const MainPage = () => {
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '70vw', width: '100%' }} >
                         <h1 style={{ fontSize: '2rem' }}>Specials</h1>
-                        <button style={{ marginTop: '1rem', alignSelf: 'flex-end' }} className="reserve-btn">Online Menu</button>
+                        <button style={{ marginTop: '1rem', alignSelf: 'flex-end' }}>Online Menu</button>
                     </div>
                 </div>
                 <CardDisplay>

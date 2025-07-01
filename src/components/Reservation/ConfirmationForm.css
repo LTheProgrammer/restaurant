@@ -1,0 +1,38 @@
+.confirmation-form {
+    margin-top: 5vh;
+    width: 100vw;
+    max-height: 50vh;
+    background: linear-gradient(90deg, #495E57 90%, transparent 90%);
+    padding: 60px 40px;
+    margin-right: calc(-50vw + 25%);
+    position: relative;
+    display: flex;
+}
+
+.confirmation-content {
+    color: white;
+    display: flex;
+    margin-left: 5vw;
+    width: 80%;
+    max-width: 70vw;
+    justify-content: space-between;
+}
+
+.text-input {
+    width: 12vw;
+    min-width: 80px;
+    height: 4vh;
+    min-height: 40px;
+    padding: 0 1vw;
+    border-radius: 0.3vw;
+    border: 1px solid #9ca3af;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    background-color: white;
+}
+
+.confirmation-form label {
+    color: white;
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+    font-weight: 500;
+    min-width: max-content;
+}
